@@ -1,4 +1,4 @@
-# About app
+# About
 
 Simple application, that can show. follow links:
   / - main page
