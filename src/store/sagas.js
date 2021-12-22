@@ -12,6 +12,7 @@ function* logInSaga({ payload }) {
   }
 }
 
+
 export default function* () {
   yield takeLatest('LOG_IN', logInSaga);
 }
