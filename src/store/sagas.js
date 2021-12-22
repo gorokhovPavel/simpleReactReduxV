@@ -3,6 +3,7 @@ import { logIn } from '../services/authService';
 
 
 function* logInSaga({ payload }) {
+  
   try {
     const { username, password } = payload;
     yield call(logIn, username, password);
