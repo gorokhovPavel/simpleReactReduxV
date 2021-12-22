@@ -1,6 +1,6 @@
 # About
 
-Simple application, that can show. follow links:
+Simple application, that can show, follow links:
 ```
   / - main page
   /login - form for input login and password 
