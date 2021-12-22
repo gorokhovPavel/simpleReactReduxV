@@ -1,6 +1,7 @@
 import { call, put, takeLatest } from 'redux-saga/effects';
 import { logIn } from '../services/authService';
 
+
 function* logInSaga({ payload }) {
   try {
     const { username, password } = payload;
