@@ -28,6 +28,7 @@ class Login extends React.Component {
       return <Redirect to='/' />;
     }
 
+    
     const { username, password } = this.state;
     const { error } = this.props;
 
