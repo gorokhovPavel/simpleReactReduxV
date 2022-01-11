@@ -10,6 +10,7 @@ module.exports = {
     filename: 'main.js',
     publicPath: '/',
   },
+  
   module: {
     rules: [
       {
@@ -19,6 +20,7 @@ module.exports = {
           loader: 'babel-loader',
         },
       },
+      
       {
         test: /\.less$/,
         use: ExtractTextPlugin.extract({
@@ -26,6 +28,7 @@ module.exports = {
           use: ['css-loader', 'less-loader'],
         }),
       },
+      
       {
         test: [/\.js$/, /\.jsx$/],
         exclude: /node_modules/,
