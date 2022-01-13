@@ -4,7 +4,6 @@ import { routes } from './routes';
 import NavigationBar from './components/navigationBar';
 import Authorization from './hoc/authorization';
 
-
 const App = () => {
   const renderSwitch = () => (
     <Switch>
